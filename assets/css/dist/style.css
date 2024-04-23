@@ -2068,7 +2068,8 @@ header.is-sticky {
   border-radius: 10px;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.9;
-  padding: 40px
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)
 }
 
 .collection-slider .swiper-slide {

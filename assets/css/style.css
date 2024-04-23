@@ -369,6 +369,7 @@
 
     .collection-wrapper .collection-content {
       @apply bg-White bg-opacity-90 absolute top-0 right-[80px]  my-[140px] p-40 rounded-10;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     }
 
     .collection-slider .swiper-slide {
