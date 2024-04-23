@@ -418,8 +418,6 @@ h6,
   overflow: hidden;
   border-width: 1px;
   border-style: solid;
-  --tw-border-opacity: 1;
-  border-color: rgb(107 72 54 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(107 72 54 / var(--tw-bg-opacity));
   padding-top: 10px;
@@ -492,6 +490,13 @@ h6,
 
 .btn-link:hover svg path {
   fill: #6B4836
+}
+
+.btn-custom {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
 }
 
 .visible {
@@ -1905,10 +1910,6 @@ header.is-sticky {
   transition-duration: 150ms;
   transition-timing-function: linear
 }
-
-/* .header.menu-open {
-      @apply overflow-y-hidden;
-    } */
 
 .sub-menu ul li::before {
   position: absolute;

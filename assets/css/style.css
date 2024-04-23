@@ -158,7 +158,7 @@
       @apply inline-block text-center text-16 font-poppins font-600 capitalize leading-26 border-0 border-solid rounded-[4px];
   }
   .btn-brown {
-      @apply bg-brown-100 text-White py-10 px-20 relative duration-300 overflow-hidden delay-150 ease-linear border-1 border-solid border-brown-100 z-1 isolation-auto ;
+      @apply bg-brown-100 text-White py-10 px-20 relative duration-300 overflow-hidden delay-150 ease-linear border-1 border-solid  z-1 isolation-auto ;
   }
   .btn-brown:hover {
     @apply text-brown-300 ;
@@ -171,7 +171,6 @@
   .btn-brown:hover::before {
       @apply  w-full ;
   } 
-
   .btn-link {
       @apply flex flex-row gap-[5px] capitalize  justify-center m-0 p-0 text-White text-16 leading-20 font-300 duration-300 delay-150 ease-linear hover:text-brown-100;
   }
@@ -183,6 +182,10 @@
 
   .btn-link:hover svg path {
       @apply fill-brown-100
+  }
+
+  .btn-custom {
+    @apply flex flex-wrap items-center relative;
   }
 
 }
@@ -207,8 +210,7 @@
         display: block;
       }
     }
-   
-
+  
     .announcement.up {
       animation: smoothup -0.1s;
     }
@@ -301,10 +303,6 @@
     .dropdown.active .carret-icon  img {
       @apply rotate-180 transition-all ease-linear duration-150 delay-100;
     }
-   
-    /* .header.menu-open {
-      @apply overflow-y-hidden;
-    } */
     .sub-menu ul li::before{
       @apply content-[''] top-[-20px] left-0 h-[1px] w-full absolute bg-Black;
     }
