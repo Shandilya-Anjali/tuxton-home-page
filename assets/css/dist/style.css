@@ -2105,6 +2105,7 @@ header.is-sticky {
   left: 0px;
   height: 100%;
   width: 100%;
+  border-radius: 10px;
   background-image: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0.822917) 30.58%, rgba(255, 255, 255, 0.539152) 40.4%, rgba(255, 255, 255, 0) 90%);
   --tw-content: '';
   content: var(--tw-content)

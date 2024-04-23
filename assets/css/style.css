@@ -393,8 +393,9 @@
     .industry-swiper .card-img {
       @apply relative ;
     }
+
     .industry-swiper .card-img::before {
-      @apply absolute top-0 left-0 h-full w-full content-[''] bg-card_gradient ;
+      @apply absolute top-0 left-0 h-full w-full content-[''] bg-card_gradient rounded-10 ;
     }
 
     .industry-wrapper .industry-swiper .card-content {
