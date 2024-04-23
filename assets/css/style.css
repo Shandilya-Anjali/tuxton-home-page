@@ -429,7 +429,10 @@
     .newsletter-wrapper .subscribe__form input{
       @apply placeholder:capitalize placeholder:text-gary-200 placeholder:font-poppins placeholder:text-16 placeholder:leading-26 placeholder:opacity-40 px-40 py-14 border-0 rounded-[4px] w-[470px] mdscreen2:w-[260px] text-16 text-brown-100 font-poppins;
     }
-
+    .newsletter-wrapper .newsletter-inner{
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+    
     /* footer start */
     .footer .footer-banner {
       @apply bg-no-repeat bg-cover h-full w-full bg-center pt-[140px] pb-[55px] px-100 smscreen2:px-55;
