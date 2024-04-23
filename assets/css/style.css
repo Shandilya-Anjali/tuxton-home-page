@@ -374,7 +374,7 @@
     }
 
     .collection-wrapper .collection-content {
-      @apply bg-White bg-opacity-90 absolute top-0 right-[80px]  my-[140px] p-40;
+      @apply bg-White bg-opacity-90 absolute top-0 right-[80px]  my-[140px] p-40 rounded-10;
     }
 
     .collection-slider .swiper-slide {
