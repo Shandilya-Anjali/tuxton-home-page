@@ -400,15 +400,12 @@ h6,
 
 .btn {
   display: inline-block;
-  border-radius: 4px;
-  border-width: 0px;
-  border-style: solid;
   text-align: center;
   font-family: poppins;
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  line-height: 26px
+  line-height: 20px
 }
 
 .btn-brown {
@@ -416,8 +413,11 @@ h6,
   isolation: auto;
   z-index: 1;
   overflow: hidden;
+  border-radius: 4px;
   border-width: 1px;
   border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(107 72 54 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(107 72 54 / var(--tw-bg-opacity));
   padding-top: 10px;
@@ -490,13 +490,6 @@ h6,
 
 .btn-link:hover svg path {
   fill: #6B4836
-}
-
-.btn-custom {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center
 }
 
 .visible {
@@ -1034,10 +1027,6 @@ h6,
 
 .gap-\[2px\] {
   gap: 2px
-}
-
-.gap-\[30px\] {
-  gap: 30px
 }
 
 .gap-\[40px\] {

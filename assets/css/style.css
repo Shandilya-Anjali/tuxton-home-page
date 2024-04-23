@@ -155,10 +155,10 @@
 @layer components{
 
   .btn {
-      @apply inline-block text-center text-16 font-poppins font-600 capitalize leading-26 border-0 border-solid rounded-[4px];
+      @apply inline-block text-center text-16 font-poppins font-600 capitalize leading-20 ;
   }
   .btn-brown {
-      @apply bg-brown-100 text-White py-10 px-20 relative duration-300 overflow-hidden delay-150 ease-linear border-1 border-solid  z-1 isolation-auto ;
+      @apply bg-brown-100 text-White py-10 px-20 relative duration-300 overflow-hidden delay-150 ease-linear border-1 border-solid border-brown-100 rounded-[4px]  z-1 isolation-auto ;
   }
   .btn-brown:hover {
     @apply text-brown-300 ;
@@ -182,10 +182,6 @@
 
   .btn-link:hover svg path {
       @apply fill-brown-100
-  }
-
-  .btn-custom {
-    @apply flex flex-wrap items-center relative;
   }
 
 }
