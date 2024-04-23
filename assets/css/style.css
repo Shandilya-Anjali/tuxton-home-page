@@ -507,7 +507,7 @@
       @apply ml-[-30px] mr-[-30px] w-screen;
     }
     .mobile-menu {
-      height: calc(100vh - 260px);
+      height: calc(100vh - 252px);
     }
 
 }

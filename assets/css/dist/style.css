@@ -2413,7 +2413,7 @@ header.is-sticky {
 }
 
 .mobile-menu {
-  height: calc(100vh - 260px);
+  height: calc(100vh - 252px);
 }
 
 .placeholder\:font-poppins::-moz-placeholder {
