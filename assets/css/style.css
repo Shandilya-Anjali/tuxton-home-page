@@ -296,7 +296,7 @@
       @apply !bg-White;
     }
     .sub-dropdown ul li a {
-      @apply pl-40;
+      @apply pl-30;
     }
     .dropdown.active .carret-icon  img {
       @apply rotate-180 transition-all ease-linear duration-150 delay-100;
